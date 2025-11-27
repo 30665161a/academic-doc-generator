@@ -7,7 +7,7 @@ const StudentCardBackTemplate = forwardRef(({ data }, ref) => {
       style={{
         width: '750px',
         height: '480px',
-        backgroundColor: 'white',
+        backgroundColor: '#000',
         borderRadius: '24px',
         overflow: 'hidden',
         fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif",
@@ -27,7 +27,8 @@ const StudentCardBackTemplate = forwardRef(({ data }, ref) => {
         flex: 1,
         padding: '30px',
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        backgroundColor: 'white'
       }}>
         {/* Address */}
         <div style={{ marginBottom: '22px' }}>
